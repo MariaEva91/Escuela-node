@@ -75,14 +75,19 @@ module.exports.a = 1*/
 //EVENT EMITTER
 //son sincronicos, hay que hacerlos asincronicos
 
-const events = require("events")
+/*const events = require("events")
 let { EventEmitter } = events;
 
 let mi_variable = new EventEmitter()
-mi_variable.on("click",()=>{
+mi_variable.on("click", a =>{
     setImmediate(()=>{console.log("me hicieron click")})
+    console.log(a)
+    
     
 })
 
-mi_variable.emit("click")
-console.log("segundo")
+mi_variable.emit("click",1)
+console.log("segundo")*/
+
+let buffer = new buffer("hola")
+console.log(buffer)
