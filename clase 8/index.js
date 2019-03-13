@@ -55,5 +55,6 @@ server.listen(8000, () => {
 
 //Local storage
 
+//localStorage.getItem('nombre','horacio');
 
 
