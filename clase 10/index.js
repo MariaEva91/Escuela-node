@@ -2,6 +2,7 @@
 
 const http = require('http');
 const mysql = require('mysql');
+var io = require('socket.io')(http);
 
 const con = mysql.createConnection({
     host: "localhost",
@@ -35,3 +36,7 @@ con.connect(err=>{
         console.log('se levanto el web server');
     })
 });
+
+//COMO IMPLEMENTAR WEB SOCKETS
+
+
